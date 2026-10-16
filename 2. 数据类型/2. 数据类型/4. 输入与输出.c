@@ -37,10 +37,73 @@ int main()
 
 
 
-	int score = 0;
-	printf("输入成绩：");
-	scanf("%d", &score);  //& --> 取地址操作符， 获取score的地址
-	printf("成绩是：%d\n", score);
+	/*scanf()处理用户输入的原理是, 用户的输入先放入缓存, 等到按下回车键后, 按照占位符对缓存进行解读。
+		解读用户输入时, 会从上一次解读遗留的第一个字符开始, 直到读完缓存, 或者遇到第一个不符合条件的字符为止。*/
+
+	//int score = 0;
+	//printf("输入成绩：");
+	//scanf("%d", &score);  //& --> 取地址操作符， 获取score的地址
+	//printf("成绩是：%d\n", score);
+
+
+	////scanf()处理数值占位符时,会自动过滤空白字符,包括空格、制表符、换行符等。
+	//int i, j;
+	//float x, y;
+	//scanf("%d%d%f%f", &i, &j, &x, &y);
+	//printf("%d\n%d\n%.2f\n%.2f\n", i, j, x, y);
+
+
+	//int m = 0;
+	//float n = 0.0;
+
+	////输入     -13.45e12# 0
+	//scanf("%d", &m);
+	//printf("%d\n", m);
+
+	//scanf("%f", &n);
+	//printf("%f\n", n);
+
+
+
+//scanf()的返回值是一个整数
+//1. 如果没有读取任何项, 或者匹配失败, 则返回0
+//2. 如果在成功读取任何数据之前, 发生了读取错误或者遇到读取到文件结尾, 则返回常量EOF(-1)。
+//3. EOF - end of file 文件结束标志表示成功读取的变量个数。
+
+	//int a = 0;
+	//int b = 0; 
+	//float c = 0.0;
+
+	//int r = scanf("%d %d %f", &a, &b, &c);  //r 为scanf的返回值，即输入的数据数量（int）
+
+	//printf("r = %d\n", r);
+	//printf("a = %d  b = %d  c = %f\n", a, b, c);
+
+	/*int num1 = 0;
+	int num2 = 0;
+
+	while (scanf("%d %d", &num1, &num2) != EOF)
+	{
+		printf("%d\n", num1 + num2);
+	}*/
+
+
+	//char arr[10];
+	//scanf("%[a-zA-z]", arr);  //读取只包含字母的字符串
+	//printf("%s\n", arr);
+
+
+	char c = 0;
+	//scanf("%c", &c);
+	//printf("---%c---\n", c);
+
+	scanf(" %c", &c);  //%c前面的空格表示忽略开始的字符
+	printf("---%c---\n", c);
+
+	char arr[10];  //字符串末尾有一个\0,所以这个字符串最多能存储9个字符
+	scanf("%9s", arr);  //%9s表示scanf只读取9个字符，字符串的最大长度为9，后面的内容将会丢弃
+	printf("%s", arr);
+
 
 	return 0;
 }
