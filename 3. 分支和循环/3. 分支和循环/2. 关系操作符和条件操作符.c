@@ -1,19 +1,10 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-//ÔÚCÓïÑÔÖÐ£¬0±íÊ¾¼Ù£¬·Ç0±íÊ¾Õæ
-int main()
+int main ()
 {
-	// ÊäÈëÒ»¸öÕûÊý£¬ÅÐ¶ÏÊÇ·ñÎªÆæÊý
-	int num = 0;
-	scanf("%d", &num);
-	if (num % 2 == 1)
-	{
-		printf("%d ÎªÆæÊý\n", num);
-	}
-	else {
-		printf("%d ÎªÅ¼Êý\n", num);
-	}
+	//å…³ç³»æ“ä½œç¬¦çš„è¿”å›žå€¼æ˜¯ 0ï¼ˆå‡ï¼‰æˆ– 1ï¼ˆçœŸï¼‰
+	printf("%d\n", 3 > 5);
+	printf("%d\n", 3 > 1);
 
 	return 0;
 }

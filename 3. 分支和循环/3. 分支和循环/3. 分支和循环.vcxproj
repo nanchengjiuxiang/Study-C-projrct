@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1. if语句.c" />
     <ClCompile Include="2. 关系操作符和条件操作符.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
