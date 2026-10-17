@@ -93,16 +93,30 @@ int main()
 	//printf("%s\n", arr);
 
 
-	char c = 0;
-	//scanf("%c", &c);
+	//char c = 0;
+	////scanf("%c", &c);
+	////printf("---%c---\n", c);
+
+	//scanf(" %c", &c);  //%c前面的空格表示忽略开始的字符
 	//printf("---%c---\n", c);
 
-	scanf(" %c", &c);  //%c前面的空格表示忽略开始的字符
-	printf("---%c---\n", c);
+	//char arr[10];  //字符串末尾有一个\0,所以这个字符串最多能存储9个字符
+	//scanf("%9s", arr);  //%9s表示scanf只读取9个字符，字符串的最大长度为9，后面的内容将会丢弃
+	//printf("%s", arr);
 
-	char arr[10];  //字符串末尾有一个\0,所以这个字符串最多能存储9个字符
-	scanf("%9s", arr);  //%9s表示scanf只读取9个字符，字符串的最大长度为9，后面的内容将会丢弃
-	printf("%s", arr);
+
+	// 赋值忽略符
+	// 为了避免这种情况, scanf()提供了一个赋值忽略符(assignment suppression character)* 。
+	// 只要把* 加在任意占位符的百分号后面, 该占位符就不会返回值, 解析后将被丢弃|
+
+	int year = 0;
+	int month = 0;
+	int day = 0;
+	printf("输入日期：");
+	scanf("%d%*c%d%*c%d", &year, &month, &day);
+	printf("year = %d\nmonth = %d\nday = %d\n", year, month, day);
+
+
 
 
 	return 0;
