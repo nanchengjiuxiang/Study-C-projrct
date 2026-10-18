@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2. 关系操作符和条件操作符.c">
+    <ClCompile Include="3. 逻辑操作符.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

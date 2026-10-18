@@ -1,10 +1,40 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main ()
 {
-	//å…³ç³»æ“ä½œç¬¦çš„è¿”å›å€¼æ˜¯ 0ï¼ˆå‡ï¼‰æˆ– 1ï¼ˆçœŸï¼‰
-	printf("%d\n", 3 > 5);
-	printf("%d\n", 3 > 1);
+	////¹ØÏµ²Ù×÷·ûµÄ·µ»ØÖµÊÇ 0£¨¼Ù£©»ò 1£¨Õæ£©
+	//printf("%d\n", 3 > 5);
+	//printf("%d\n", 3 > 1);
+
+	//int num = 0;
+	//scanf("%d", &num);
+	//if (3 == num)  //num = 3Îª¸³Öµ²Ù×÷£¬Õâ»áµ¼ÖÂÅĞ¶Ï½á¹ûÎª3£¨·Ç0£¬ÎªÕæ£©---> ÎªÁË·ÀÖ¹ÎóĞ´£¬¿ÉÒÔ½«³£Á¿·ÅÔÚµÈÊ½×ó±ß
+	//	printf("%dÎª3\n", num);
+
+	//int i = 3;
+	//int j = 8;
+	//int k = 5;
+
+	//if (i < j < k)   //i < j ÎªÕæ£¬ÔòÎª 1 £¬È»ºó»á½« 1 Óë k ±È½Ï£¬1 < k ÎªÕæ
+	//	printf("Ö´ĞĞ´úÂë1\n");
+
+	//if (i < j && j < k)   //&& ---> ²¢ÇÒ
+	//	printf("Ö´ĞĞ´úÂë2\n");
+
+
+
+	int a = 0;
+	int b = 0;
+	scanf("%d %d", &a, &b);
+	
+	//Çó×î´óÖµ
+	int max = (a > b ? a : b);
+	//Çó×îĞ¡Öµ
+	int min = (a > b ? b : a);
+	printf("max = %d\n", max);
+	printf("min = %d\n", min);
+
 
 	return 0;
 }
