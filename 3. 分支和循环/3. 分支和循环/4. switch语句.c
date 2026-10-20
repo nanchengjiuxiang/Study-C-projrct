@@ -54,10 +54,19 @@ int main()
 		printf("星期六\n");
 		break;
 	case 7:
-		printf("星期日\n");
+		printf("星期天\n");
 		break;
 	default:
-		printf("输入的天数不合法\n");
+		printf("输入正确的天数（1-7）！！\n");
+	}
+
+	if (day >= 1 && day <= 5)
+	{
+		printf("工作日！\n");
+	}
+	else if (day >= 6 && day <= 7)
+	{
+		printf("休息日！\n");
 	}
 
 	return 0;
