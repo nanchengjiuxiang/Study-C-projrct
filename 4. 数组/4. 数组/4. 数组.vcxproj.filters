@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1. 数组概念和一维数组的创建、初始化.c">
+    <ClCompile Include="9. 数组练习（二分查找）.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
