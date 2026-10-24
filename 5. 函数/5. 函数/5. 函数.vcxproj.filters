@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="3. return语句.c">
+    <ClCompile Include="8. static和exterm关键字.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
