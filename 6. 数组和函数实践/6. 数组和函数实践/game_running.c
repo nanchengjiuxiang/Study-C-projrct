@@ -13,6 +13,9 @@ void game()
 	char borad[ROWS][COLS];  //存放雷的信息
 	char show_borad[ROWS][COLS];   //存放排查雷的信息
 
+	//记录开始时间
+	time_t start = time(NULL);
+
 	//初始化棋盘
 	InitBorad(borad, ROWS, COLS, '0');
 	InitBorad(show_borad, ROWS, COLS, '*');
@@ -22,6 +25,10 @@ void game()
 	SetBorad(borad, ROW, COL);
 	//排雷
 	FindBorad(borad, show_borad, ROW, COL);
+
+	//记录结束时间
+	time_t end = time(NULL);
+	printf("本次游戏耗时：%d", end - start);
 }
 
 int main()
