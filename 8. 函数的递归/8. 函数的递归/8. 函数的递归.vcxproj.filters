@@ -15,21 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1. 什么是递归.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="2. 递归的案例1(n的阶乘).c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="3. 递归的案例2(顺序打印整数每一行).c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="4. 递归与迭代.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="5. 递归与迭代举例.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="6. 斐波那契数列.c">
       <Filter>源文件</Filter>
     </ClCompile>

@@ -139,11 +139,6 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1. 什么是递归.c" />
-    <ClCompile Include="2. 递归的案例1(n的阶乘).c" />
-    <ClCompile Include="3. 递归的案例2(顺序打印整数每一行).c" />
-    <ClCompile Include="4. 递归与迭代.c" />
-    <ClCompile Include="5. 递归与迭代举例.c" />
     <ClCompile Include="6. 斐波那契数列.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

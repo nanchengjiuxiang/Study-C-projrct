@@ -1,0 +1,10 @@
+﻿  game_fun.c
+  game_running.c
+E:\Project\c-study\Study\6. 数组和函数实践\6. 数组和函数实践\game_running.c(31,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“time_t”
+      E:\Project\c-study\Study\6. 数组和函数实践\6. 数组和函数实践\game_running.c(31,9):
+      请考虑在格式字符串中使用“%lld”
+      E:\Project\c-study\Study\6. 数组和函数实践\6. 数组和函数实践\game_running.c(31,9):
+      请考虑在格式字符串中使用“%I64d”
+  
+  正在生成代码...
+  6. 数组和函数实践.vcxproj -> E:\Project\c-study\Study\6. 数组和函数实践\Debug\6. 数组和函数实践.exe
