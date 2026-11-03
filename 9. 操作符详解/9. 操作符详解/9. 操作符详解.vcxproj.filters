@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="4. 按位与、或、异或、取反操作符.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="5. 面试题：两数交换.c">
+    <ClCompile Include="10. 结构成员访问操作符.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
