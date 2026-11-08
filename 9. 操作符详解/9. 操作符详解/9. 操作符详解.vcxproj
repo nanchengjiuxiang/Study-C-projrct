@@ -141,6 +141,12 @@
       <EnableSegmentHeap>true</EnableSegmentHeap>
     </Manifest>
   </ItemDefinitionGroup>
+<<<<<<< HEAD
+=======
+  <ItemGroup>
+    <ClCompile Include="5. 面试题：两数交换.c" />
+  </ItemGroup>
+>>>>>>> a09f0ffd9881f7848a618dabb7c7d415ed902773
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

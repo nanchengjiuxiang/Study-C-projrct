@@ -15,7 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClCompile Include="13. 问题表达式解析.c">
+=======
+    <ClCompile Include="5. 面试题：两数交换.c">
+>>>>>>> a09f0ffd9881f7848a618dabb7c7d415ed902773
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
