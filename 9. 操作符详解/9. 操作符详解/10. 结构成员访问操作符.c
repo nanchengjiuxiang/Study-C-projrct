@@ -42,6 +42,8 @@ int main()
 	//打印结构体数据
 	printf("name = %s, age = %d, score = %d\n", s3.name, s3.age, s3.score);
 	printf("n = %d, c = %c, name = %s, height = %lf\n", t.n, t.c, t.s.name, t.s.height);
+	//结构体变量.成员名 ---> 结构成员访问操作符
+
 
 	return 0;
 }
