@@ -28,7 +28,7 @@ void game()
 
 	//记录结束时间
 	time_t end = time(NULL);
-	printf("本次游戏耗时：%.0f", difftime(end, start));
+	printf("本次游戏耗时：%.0fs", difftime(end, start));
 }
 
 int main()
